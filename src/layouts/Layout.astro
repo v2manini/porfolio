@@ -1,0 +1,33 @@
+---
+import Header from "./header.svelte";
+import Footer from "./footer.svelte";
+//import "../css/bootstrap.min.css";
+import "../css/font_Cozette.css";
+import "../css/_index.scss";
+
+
+const objs ={
+        Title: "Porfolio",
+        Descrip: "dadadasdsadadadadad",
+        color: "#F4D7D7",
+};
+---
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/favicon.webp">
+        <title>{objs.Title}</title>
+        <meta name="description" content={objs.Descrip}>
+        <meta name="theme-color" content= {objs.color}>
+        <meta property="og:title" content={objs.Title} >
+        <meta property="og:description" content={objs.Descrip} >
+    </head>
+    <body>
+        <Header/>
+        <main><slot/></main>
+        <Footer/>
+    </body>
+</html>
