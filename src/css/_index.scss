@@ -1,4 +1,3 @@
-@import "./colorPalet.scss";
-@import "./main.scss";
-@import"./Fuentes.scss";
-
+@forward "./colorPalet.scss";
+@forward "./main.scss";
+@forward"./Fuentes.scss";
