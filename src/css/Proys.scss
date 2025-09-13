@@ -1,0 +1,23 @@
+@use "./colorPalet.scss" as *; 
+.Proy_containter {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    img {
+        width: 20vw;
+        object-fit: cover;
+    }
+    a {
+        color :$CNSL_fontColor;
+    }
+}
+
+.Proyects {
+    display: flex;
+    flex-direction: column;
+    gap : 8px;
+    p {
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+}

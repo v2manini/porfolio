@@ -5,13 +5,13 @@
 <nav id="idNav" class="navbar" data-bs-theme="dark">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#idNav">Inicio</a>
+          <a class="nav-link" href="/#idNav">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#skill">Habilidades</a>
+          <a class="nav-link" href="/#skill">Habilidades</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Proyectos">Proyectos</a>
+          <a class="nav-link" href="/#Proyectos">Proyectos</a>
         </li>
       </ul>
 </nav>

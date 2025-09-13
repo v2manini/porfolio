@@ -2,12 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Skill from "../components/Skill.svelte";
 import Proy from "../components/Proy.svelte";
+import { getCollection } from 'astro:content';
+
+// const Proys = Object.values(import.meta.glob('../content/proyects/*.md',{eager:true}));
+const Proys = await getCollection("proyects");
 
 ---
 
 <Layout >
   <Skill />
-  <Proy />
+  <Proy Proys = {Proys} />
 </Layout>
 
 <!-- <slot/> -->

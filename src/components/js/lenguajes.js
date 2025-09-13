@@ -26,6 +26,10 @@ const backend = [
     img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
   },
   {
+    lenguaje: "Express ",
+    img: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+  },
+  {
     lenguaje: "Mysql",
     img: "/imgs/Database-mysql.svg",
   },
