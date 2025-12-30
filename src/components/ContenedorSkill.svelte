@@ -7,7 +7,7 @@
     <div class="contenedorskill">
         {#each lenguajes as lenguaje}
         <div class="Prog_lenguajes">
-            <img class="Prog_logo"  src="{lenguaje.img}" alt="Logo de {lenguaje.lenguaje}" >
+            <img loading="lazy" class="Prog_logo"  src="{lenguaje.img}" alt="Logo de {lenguaje.lenguaje}" >
             <h2>{lenguaje.lenguaje}</h2>
         </div>
         {/each}

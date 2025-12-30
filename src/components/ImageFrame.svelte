@@ -1,17 +1,18 @@
 <script>
-    let {imgUrl,alt} =$props(); 
+    let {imgUrl,alt,CLASS ="ImgFrame"} =$props(); 
 </script>
 
-<div class="ImgFrame">
-    <img src="{imgUrl}" alt="{alt}">
+<div class={CLASS}>
+    <img loading="lazy" src="{imgUrl}" alt="{alt}">
 </div>
-
+<!-- class="{CLASS}"  -->
 <style>
     .ImgFrame {
         /* border: 1px dashed #fff; */
         overflow: hidden;
         height: 400px;
-        width: 80vw;
+        /* width: 80vw; */
+        width: 100%;
 
     }
     img {
