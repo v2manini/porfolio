@@ -10,9 +10,9 @@
     .ImgFrame {
         /* border: 1px dashed #fff; */
         overflow: hidden;
-        height: 400px;
+        min-height: 50%; /*400px */
         /* width: 80vw; */
-        width: 100%;
+        /* width: 100%; */
 
     }
     img {

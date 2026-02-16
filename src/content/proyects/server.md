@@ -1,7 +1,7 @@
 ---
-title: Exel editor viewer
-img: /imgs/exel-editor-viewer.PNG
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum neque nostrum modi alias aut? Sapiente blanditiis optio voluptatum officia repellendus quam ipsa numquam tempore voluptatem quidem, voluptas accusamus et suscipit?
+title: Self hosted server
+img: 
+description: Mi priopio ubuntu server hecho desde casa.
 tecs: []
 
 --- 

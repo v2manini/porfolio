@@ -3,6 +3,8 @@ import type { getStaticPaths } from "astro";
 import { getCollection ,render} from 'astro:content';
 import Layout from "../../layouts/Layout.astro"
 import Imga from  "../../components/ImageFrame.svelte"
+import Tecs from  "../../components/Tecnos.svelte";
+
 
 export async function getStaticPaths(){
     const Proys = await getCollection("proyects");
@@ -17,7 +19,7 @@ export const prerender = true
 const { Proy } = Astro.props
 
 const { data, slug } = Proy
-const {title,img} = data
+const {title,img,tecs } = data
 const {Content} = await render(Proy);
 ---
 
@@ -26,6 +28,7 @@ const {Content} = await render(Proy);
      <article class="Proyects">
         <h1>{title}</h1>
         <Imga class="data" imgUrl = {img}/>
+        <Tecs Tecs = {tecs} />
         <Content/>
      </article>
 </Layout>

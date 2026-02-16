@@ -11,9 +11,19 @@
             <div class="Proy_containter"> 
                 <h2>{Proy.data.title}</h2>
                 <IMG imgUrl = {Proy.data.img}/>
+                {@render Tecnos(Proy.data.tecs)}
                 <p>{Proy.data.description}</p>
             </div>
          </a>
         {/each}
     </div>
 </div>
+
+<!-- Remplazar en el futuro -->
+{#snippet Tecnos(tecs)} 
+    <div class="Tecnos_container">
+	{#each tecs as tec }
+        <div class="Tecnos" >{tec}</div> 
+    {/each}
+    </div>
+{/snippet}
