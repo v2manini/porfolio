@@ -1,8 +1,13 @@
 ---
 title: Better way to see Txt
-img: https://www.laprensa.com.ar/Multimedios/Imgs/128499_945.jpg
+img: /imgs/Note_display.JPG
 description: Una mejor manera de ver links.
-tecs: []
+tecs: ["Node js", "Express.js","Handlebars","Mysql"]
 
 --- 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi facilis magni animi mollitia, modi adipisci est saepe, facere temporibus impedit at ipsum porro, provident dignissimos dolores doloribus maxime sit rerum explicabo. Magnam fugit sint nesciunt ratione consequatur inventore saepe id, eaque maxime minus, nemo non quas beatae hic. Ad, sapiente? Tenetur modi facilis minus unde dolores expedita praesentium aperiam, eum laboriosam eius optio? At a in ea, neque voluptatem incidunt libero quod facilis mollitia suscipit nam velit fuga sit. Praesentium, facere. Facere velit unde error obcaecati officiis possimus aperiam neque blanditiis laudantium porro eaque, voluptatibus et iure magnam molestias cum quo iusto quam ratione. Dolorem quod veritatis eum consequuntur sequi iure vitae. Aut ipsa aliquid nisi architecto adipisci harum laudantium quod cupiditate autem deleniti, nemo mollitia tempore quia saepe, eligendi, laborum provident accusamus voluptate incidunt nobis magni! Totam pariatur odio odit quae, eveniet deserunt. Repellat doloribus atque consequuntur veniam.
+
+Este proyecto fue hecho con la idea de poder guardar fácilmente enlaces de la web. 
+
+Por ejemplo si guardo los videos de youtube en una lista de reproducción de ellos, si se borrara, no sabría cual video fue. En cambio al guardar el enlace con el título, puedo saber cual video fue.
+
+Cuando se trata de youtube, uso directamente la api del mismo. Sino hay que escrapear la web para obtener la metadata del html.

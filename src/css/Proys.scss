@@ -5,7 +5,7 @@
     // display: grid;
     // grid-auto-columns: 1fr 1fr 1fr;
     gap: 8px;
-    height: 38rem; //400px // Tamaño de cada celda 
+    height: 35rem; //400px // Tamaño de cada celda 
     img {
         width: 100%;
         object-fit: cover;
@@ -50,6 +50,7 @@ main {
     display: flex;
     gap:16px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .Tecnos {
     background-color: #267cb2;

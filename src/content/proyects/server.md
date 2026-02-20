@@ -1,8 +1,11 @@
 ---
 title: Self hosted server
-img: 
-description: Mi priopio ubuntu server hecho desde casa.
-tecs: []
+img: /imgs/Self-host.jpg
+description: Mi propio ubuntu server hecho desde casa.
+tecs: ["Linux","Docker"]
 
 --- 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi facilis magni animi mollitia, modi adipisci est saepe, facere temporibus impedit at ipsum porro, provident dignissimos dolores doloribus maxime sit rerum explicabo. Magnam fugit sint nesciunt ratione consequatur inventore saepe id, eaque maxime minus, nemo non quas beatae hic. Ad, sapiente? Tenetur modi facilis minus unde dolores expedita praesentium aperiam, eum laboriosam eius optio? At a in ea, neque voluptatem incidunt libero quod facilis mollitia suscipit nam velit fuga sit. Praesentium, facere. Facere velit unde error obcaecati officii    s possimus aperiam neque blanditiis laudantium porro eaque, voluptatibus et iure magnam molestias cum quo iusto quam ratione. Dolorem quod veritatis eum consequuntur sequi iure vitae. Aut ipsa aliquid nisi architecto adipisci harum laudantium quod cupiditate autem deleniti, nemo mollitia tempore quia saepe, eligendi, laborum provident accusamus voluptate incidunt nobis magni! Totam pariatur odio odit quae, eveniet deserunt. Repellat doloribus atque consequuntur veniam.
+
+En este proyecto, me propuse hacer mi propio servidor, antes de alquilar un vps.
+
+En este utilizo docker y docker-compose para alojar distintos servicios como wireguard, mumble, xmpp, o hasta alguno servidor de alguno juego.
