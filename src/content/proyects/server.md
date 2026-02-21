@@ -3,6 +3,7 @@ title: Self hosted server
 img: /imgs/Self-host.jpg
 description: Mi propio ubuntu server hecho desde casa.
 tecs: ["Linux","Docker"]
+repo_url: 
 
 --- 
 

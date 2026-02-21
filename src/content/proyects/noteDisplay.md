@@ -3,6 +3,7 @@ title: Better way to see Txt
 img: /imgs/Note_display.JPG
 description: Una mejor manera de ver links.
 tecs: ["Node js", "Express.js","Handlebars","Mysql"]
+repo_url: https://github.com/v2manini/exel-editor-viewer.git
 
 --- 
 

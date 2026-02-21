@@ -3,6 +3,7 @@ title: Bot de Discord
 img: /imgs/Discord-bot.JPG
 description: Un bot de discord usado su api de discord js.
 tecs: ["js", "Discord.js","Mysql"]
+repo_url: https://github.com/v2manini/old-discord-bot
 
 --- 
 Es un pequeño proyecto en donde utilizo la api de discord ([Discord.js](https://discord.js.org/)).
