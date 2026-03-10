@@ -1,6 +1,6 @@
 ---
 title: Sistema Operativo
-img: /imgs/Os.JPG
+img: /porfolio/imgs/Os.JPG
 description: Simulación del funcionamiento de un sistema operativo tipo unix.
 tecs: ["C"]
 repo_url: https://github.com/v2manini/os-simulaci-n

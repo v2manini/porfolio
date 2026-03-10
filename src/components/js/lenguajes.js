@@ -1,7 +1,12 @@
-const Fronted = "Fronted"
-const Backend = "Backend"
-const Server  = "Server"
-const Bajo_nivel = "Bajo Nivel"
+import {BASE } from 'astro:env/client'
+
+
+let base = "/"+BASE;
+
+const Fronted = `Fronted`
+const Backend = `Backend`
+const Server  = `Server`
+const Bajo_nivel = `Bajo Nivel`
 
 const tipos = [
   Fronted,
@@ -12,69 +17,69 @@ const tipos = [
 
 const lenguajes = [
   {
-    lenguaje: "HTML",
+    lenguaje: `HTML`,
     tipo:Fronted,
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg",
+    img: `https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg`,
   },
   {
-    lenguaje: "CSS",
+    lenguaje: `CSS`,
     tipo:Fronted ,
-    img: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+    img: `https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg`,
   },
   {
-    lenguaje: "Sass",
+    lenguaje: `Sass`,
     tipo:Fronted ,
-    img: "https://cdn-icons-png.flaticon.com/512/5968/5968358.png   ",
+    img: `https://cdn-icons-png.flaticon.com/512/5968/5968358.png   `,
   },
   {
-    lenguaje: "JS",
+    lenguaje: `JS`,
     tipo: Fronted ,
-    img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    img: `https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png`,
   },
   {
-    lenguaje: "SVELTE",
+    lenguaje: `SVELTE`,
     tipo:Fronted ,
-    img: "http://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+    img: `http://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg`,
   },
   {
-    lenguaje: "Nodejs",
+    lenguaje: `Nodejs`,
     tipo:Backend ,
-    img: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    img: `https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg`,
   },
   {
-    lenguaje: "Express js",
+    lenguaje: `Express js`,
     tipo:Backend ,
-    img: "/imgs/express-js-logo.png",
+    img: `${base}/imgs/express-js-logo.png`,
   },
   {
-    lenguaje: "Mysql",
+    lenguaje: `Mysql`,
     tipo:Backend ,
-    img: "/imgs/Database-mysql.svg",
+    img: `${base}/imgs/Database-mysql.svg`,
   },
   {
-    lenguaje: "PocketBase",
+    lenguaje: `PocketBase`,
     tipo:Backend ,
-    img: "https://pocketbase.io/images/logo.svg",
+    img: `https://pocketbase.io/images/logo.svg`,
   },
   {
-    lenguaje: "SVELTE KIT",
+    lenguaje: `SVELTE KIT`,
     tipo:Backend,
-    img: "http://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+    img: `http://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg`,
   },
   {
-    lenguaje: "C/C++",
+    lenguaje: `C/C++`,
     tipo:Bajo_nivel ,
-    img: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+    img: `https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png`,
   },
   {
-    lenguaje: "Linux",
+    lenguaje: `Linux`,
     tipo:Server,
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+    img: `https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg`,
   },
   {
-    lenguaje: "DOCKER",
+    lenguaje: `DOCKER`,
     tipo:Server,
-    img: "/imgs/Docker_logo.svg",
+    img: `${base}/imgs/Docker_logo.svg`,
   },
 ];
 

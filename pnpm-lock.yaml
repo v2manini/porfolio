@@ -24,6 +24,9 @@ importers:
       sass:
         specifier: ^1.85.0
         version: 1.97.3
+      vite:
+        specifier: ^7.3.1
+        version: 7.3.1(sass@1.97.3)
 
 packages:
 
@@ -1786,6 +1789,46 @@ packages:
       yaml:
         optional: true
 
+  vite@7.3.1:
+    resolution: {integrity: sha512-w+N7Hifpc3gRjZ63vYBXA56dvvRlNWRczTdmCBBa+CotUzAPf5b7YMdMR/8CQoeYE5LX3W4wj6RYTgonm1b9DA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^20.19.0 || >=22.12.0
+      jiti: '>=1.21.0'
+      less: ^4.0.0
+      lightningcss: ^1.21.0
+      sass: ^1.70.0
+      sass-embedded: ^1.70.0
+      stylus: '>=0.54.8'
+      sugarss: ^5.0.0
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
+
   vitefu@1.1.1:
     resolution: {integrity: sha512-B/Fegf3i8zh0yFbpzZ21amWzHmuNlLlmJT6n7bu5e+pCHUKQIfXSYokrqOBGEMMe9UG2sostKQF9mml/vYaWJQ==}
     peerDependencies:
@@ -1886,7 +1929,7 @@ snapshots:
 
   '@astrojs/svelte@7.2.5(astro@5.17.2(rollup@4.57.1)(sass@1.97.3)(typescript@5.9.3))(sass@1.97.3)(svelte@5.51.0)(typescript@5.9.3)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3))
+      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.51.0)(vite@7.3.1(sass@1.97.3))
       astro: 5.17.2(rollup@4.57.1)(sass@1.97.3)(typescript@5.9.3)
       svelte: 5.51.0
       svelte2tsx: 0.7.48(svelte@5.51.0)(typescript@5.9.3)
@@ -2395,25 +2438,25 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3)))(svelte@5.51.0)(vite@6.4.1(sass@1.97.3))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3)))(svelte@5.51.0)(vite@7.3.1(sass@1.97.3))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3))
+      '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.51.0)(vite@7.3.1(sass@1.97.3))
       debug: 4.4.3
       svelte: 5.51.0
-      vite: 6.4.1(sass@1.97.3)
+      vite: 7.3.1(sass@1.97.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3))':
+  '@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.51.0)(vite@7.3.1(sass@1.97.3))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3)))(svelte@5.51.0)(vite@6.4.1(sass@1.97.3))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.51.0)(vite@6.4.1(sass@1.97.3)))(svelte@5.51.0)(vite@7.3.1(sass@1.97.3))
       debug: 4.4.3
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.21
       svelte: 5.51.0
-      vite: 6.4.1(sass@1.97.3)
-      vitefu: 1.1.1(vite@6.4.1(sass@1.97.3))
+      vite: 7.3.1(sass@1.97.3)
+      vitefu: 1.1.1(vite@7.3.1(sass@1.97.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -3773,9 +3816,25 @@ snapshots:
       fsevents: 2.3.3
       sass: 1.97.3
 
+  vite@7.3.1(sass@1.97.3):
+    dependencies:
+      esbuild: 0.27.3
+      fdir: 6.5.0(picomatch@4.0.3)
+      picomatch: 4.0.3
+      postcss: 8.5.6
+      rollup: 4.57.1
+      tinyglobby: 0.2.15
+    optionalDependencies:
+      fsevents: 2.3.3
+      sass: 1.97.3
+
   vitefu@1.1.1(vite@6.4.1(sass@1.97.3)):
     optionalDependencies:
       vite: 6.4.1(sass@1.97.3)
+
+  vitefu@1.1.1(vite@7.3.1(sass@1.97.3)):
+    optionalDependencies:
+      vite: 7.3.1(sass@1.97.3)
 
   web-namespaces@2.0.1: {}
 
