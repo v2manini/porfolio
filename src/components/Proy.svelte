@@ -10,7 +10,7 @@
     <h1>Proyectos</h1>
     <div class="Todos_proy">
         {#each Proys as Proy }
-        <a href="/{BASE}/proy/{Proy.slug}">
+        <a href="/{BASE}/proy/{Proy.id}">
             <div class="Proy_containter"> 
                 <h2>{Proy.data.title}</h2>
                 <IMG imgUrl = {Proy.data.img}/>

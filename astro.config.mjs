@@ -3,7 +3,7 @@ import { defineConfig,envField } from 'astro/config'
 import svelte from '@astrojs/svelte';
 import { loadEnv } from "vite";
 
-import { getContext } from 'svelte';
+// import { getContext } from 'svelte';
 const { BASE,SITE } = loadEnv(process.env.NODE_ENV, process.cwd(), ""); 
 
 // https://astro.build/config
@@ -17,4 +17,5 @@ export default defineConfig({
   },
   site:SITE,
   base: BASE,
+  
 });

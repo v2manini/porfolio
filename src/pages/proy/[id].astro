@@ -10,7 +10,7 @@ import Btn from  "../../components/Btn_p.svelte";
 export async function getStaticPaths(){
     const Proys = await getCollection("proyects");
     return Proys.map((Proy) => ({
-        params : {id: Proy.slug },
+        params : {id: Proy.id },
         props: {Proy}
     }));
     
