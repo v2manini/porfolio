@@ -14,14 +14,16 @@ permissions:
   pages: write
   id-token: write
 
-jobs:
+jobs:  
   create-envfile:
+    runs-on: ubuntu-latest
     steps:
     - name: Make envfile
       uses: SpicyPizza/create-envfile@v2.0
       with:
-           SITE : ${{ vars.SITE }} # Use single quotation marks for the variable value. (optional)
-           BASE : ${{ vars.BASE }}
+          SITE : ${{ vars.SITE }} # Use single quotation marks for the variable value. (optional)
+          BASE : ${{ vars.BASE }}
+
   build:
     runs-on: ubuntu-latest
     steps:
