@@ -14,24 +14,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      SITE: ${{ vars.SITE }}
+      BASE: ${{ vars.BASE }}
+
     steps:
-      - name: Checkout repository
+      - name: Checkout your repository using git
         uses: actions/checkout@v5
 
-      - name: Create .env file
-        uses: SpicyPizza/create-envfile@v2.0
-        with:
-          envkey_SITE: ${{ vars.SITE }}
-          envkey_BASE: ${{ vars.BASE }}
-
-      - name: Install, build, and upload site
+      - name: Install, build, and upload your site
         uses: withastro/action@v5
-        with:
-          package-manager: pnpm@10.28.0
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
