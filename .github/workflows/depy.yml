@@ -15,6 +15,13 @@ permissions:
   id-token: write
 
 jobs:
+  create-envfile:
+    steps:
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v2.0
+      with:
+           SITE : ${{ vars.SITE }} # Use single quotation marks for the variable value. (optional)
+           BASE : ${{ vars.BASE }}
   build:
     runs-on: ubuntu-latest
     steps:
@@ -27,8 +34,6 @@ jobs:
           # node-version: 24 # The specific version of Node that should be used to build your site. Defaults to 22. (optional)
           package-manager: pnpm@10.28.0 # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
           # build-cmd: pnpm run build # The command to run to build your site. Runs the package build script/task by default. (optional)
-           SITE : ${{ vars.SITE }} # Use single quotation marks for the variable value. (optional)
-           BASE : ${{ vars.BASE }}
   deploy:
     needs: build
     runs-on: ubuntu-latest
