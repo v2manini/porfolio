@@ -4,7 +4,7 @@ import svelte from '@astrojs/svelte';
 import { loadEnv } from "vite";
 
 // import { getContext } from 'svelte';
-// const { BASE,SITE } = loadEnv(process.env.NODE_ENV, process.cwd(), ""); 
+const { BASE,SITE } = loadEnv(process.env.NODE_ENV, process.cwd(), ""); 
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
       BASE:envField.string({context : "client" , access:"public"} )
     }
   },
-  site:"porfolio",
-  base: "https://v2manini.github.io",
+  site:SITE,
+  base: BASE,
   
 });
