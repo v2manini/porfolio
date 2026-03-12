@@ -18,10 +18,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Show default environment variables
-        run: |
-          echo "SITE: ${{ vars.SITE }}"   # reference the default environment variables
-          echo "BASE: ${{ vars.BASE }}"   # reference the default environment variables
       - name: Checkout your repository using git
         uses: actions/checkout@v5
       - name: Install, build, and upload your site
