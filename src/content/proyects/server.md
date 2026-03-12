@@ -3,7 +3,7 @@ title: Self hosted server
 img: /porfolio/imgs/Self-host.jpg
 description: Mi propio ubuntu server hecho desde casa.
 tecs: ["Linux","Docker"]
-repo_url: 
+repo_url: ""
 
 --- 
 
