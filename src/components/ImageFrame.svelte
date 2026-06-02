@@ -1,9 +1,9 @@
 <script>
-    let {imgUrl,alt,CLASS ="ImgFrame"} =$props(); 
+    let {imgUrl,alt = "",CLASS ="ImgFrame"} =$props(); 
 </script>
 
 <div class={CLASS}>
-    <img loading="lazy" src="{imgUrl}" alt="{alt}">
+    <img loading="lazy" src={imgUrl} alt="{alt}">
 </div>
 <!-- class="{CLASS}"  -->
 <style>
