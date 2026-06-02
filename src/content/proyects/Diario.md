@@ -7,4 +7,5 @@ repo_url: https://github.com/v2manini/diario-o.git
 
 --- 
 
-Este proyecto consiste en un diario web, es basicamente un CRUD.
+Este proyecto consiste en un diario web, es básicamente un CRUD. 
+Tiene Incorporado un login y utiliza un formato de un richtextbox para cada nota.
