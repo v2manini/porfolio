@@ -6,6 +6,8 @@ import "../css/font_Cozette.css";
 import "../css/_index.scss";
 
 import {BASE} from "astro:env/client"
+import { ClientRouter } from "astro:transitions";
+
 
 const objs ={
         Title: "Porfolio",
@@ -25,6 +27,7 @@ const objs ={
         <meta name="theme-color" content= {objs.color}>
         <meta property="og:title" content={objs.Title} >
         <meta property="og:description" content={objs.Descrip} >
+        <ClientRouter/>
     </head>
     <body>
         <Header/>

@@ -1,0 +1,19 @@
+
+$gapAnim:2px;
+
+.idleAnim{
+    animation:idle1 0.8s ease-in-out 0s infinite alternate; 
+}
+
+
+@keyframes idle1 {
+    0% {
+        transform:  translate(0px, -$gapAnim);
+    }
+
+    100% {
+        transform:  translate(0px, $gapAnim+10px);
+
+    }
+
+}

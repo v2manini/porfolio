@@ -7,7 +7,7 @@
     <div class="contenedorskill">
         {#each lenguajes as lenguaje}
         <div class="Prog_lenguajes">
-            <img loading="lazy" class="Prog_logo"  src="{lenguaje.img}" alt="Logo de {lenguaje.lenguaje}" >
+            <img loading="lazy" class="Prog_logo idleAnim"  src="{lenguaje.img}" alt="Logo de {lenguaje.lenguaje}" >
             <h2>{lenguaje.lenguaje}</h2>
         </div>
         {/each}
@@ -16,7 +16,7 @@
 
 <style lang="scss">
     $caja: 8rem; //12.5rem  5rem
-    $maxImag:75% ; // 75%
+    $maxImag:65% ; // 75%
 
     .ContenedorSkill{
         margin-bottom: 4%;
@@ -32,6 +32,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         // border-style: dashed;
         padding: 2% 1% 1% 1%;
         height: $caja;
@@ -47,7 +48,7 @@
         // min-width:8rem;
         // min-height: 60px;
         // min-width: 60px;
-        height: $maxImag;
+        max-height: $maxImag;
         // aspect-ratio: 1/1 ;
         // object-fit: cover;
         transition: 0.3s;
