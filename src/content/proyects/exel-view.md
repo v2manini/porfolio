@@ -1,7 +1,7 @@
 ---
-title: Exel editor viewer
+title: Excel editor viewer
 img: /porfolio/imgs/exel-editor-viewer.PNG
-description: Editor de archivos exel
+description: Editor de archivos excel
 tecs: ["Node js", "Express.js","Handlebars"]
 repo_url: https://github.com/v2manini/exel-editor-viewer
 

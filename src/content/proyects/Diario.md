@@ -1,6 +1,6 @@
 ---
 title: Diario-Blog-forum
-img: /porfolio/imgs/exel-editor-viewer.PNG
+img: /porfolio/imgs/Diario-v.PNG
 description: Un diario hecho desde cero.
 tecs: ["Node js", "Express.js","Handlebars","Mysql"]
 repo_url: https://github.com/v2manini/diario-o.git
